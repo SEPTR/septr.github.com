@@ -5,13 +5,6 @@
   <div class="page-header">
     <h1>{{ page.title }}{% if page.subtitle %} <small>{{ page.subtitle }}</small>{% endif %}</h1>
   </div>
-  <footer>
-    {% if page.author %}
-    <address>
-      By <a href="{{ SITEURL }}/{{ page.author.url }}">{{ page.author }}</a>
-    </address>
-    {% endif %}
-  </footer>
   <div>
     {{ page.content }}
   </div>
