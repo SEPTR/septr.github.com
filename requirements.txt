@@ -6,6 +6,7 @@ blinker==1.2
 distribute==0.6.28
 docutils==0.10
 feedgenerator==1.5
+ghp-import==0.2.2
 pelican==3.1.1
 pytz==2012j
 six==1.2.0
