@@ -43,7 +43,7 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
-	ghp-import $(OUTPUTDIR)
-	git push git@github.com:SEPTR/septr.github.com.git gh-pages:master
+	ghp-import -b master $(OUTPUTDIR)
+	git push origin master:master
 
 .PHONY: html help clean regenerate serve devserver publish github
