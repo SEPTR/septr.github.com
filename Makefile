@@ -44,6 +44,6 @@ publish:
 
 github: publish
 	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+	git push git@github.com:SEPTR/septr.github.com.git gh-pages:master
 
 .PHONY: html help clean regenerate serve devserver publish github
