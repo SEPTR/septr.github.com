@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Archives <small>What We've Been Up To</small></h1>
+</div>
+
+<dl>
+  {% for article in dates %}
+  <dt>{{ article.locale_date }}</dt>
+  <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+  {% endfor %}
+</dl>
+{% endblock content %}

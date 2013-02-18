@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="hero-unit">
+  <img src="{{ SITEURL }}/theme/img/septr.png" />
+  <p>This is a template for a simple marketing or informational website. It
+    includes a large callout called the hero unit and three supporting pieces of
+    content. Use it as a starting point to create something more unique.</p>
+  <p><a href="{{ SITEURL }}/about/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+{% for article in articles_page.object_list %}
+<div class="row-fluid">
+  <div class="span12">
+    <article>
+      <header>
+        <h2>
+          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+            {{ article.title }}
+          </a>
+        </h2>
+      </header>
+      <footer>
+        <abbr title="{{ article.date.isoformat() }}">{{ article.locale_date }}</abbr>
+        {% if article.author %}
+        <address>
+          By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+        </address>
+        {% endif %}
+      </footer>
+      <div>
+        {{ article.summary }}
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}

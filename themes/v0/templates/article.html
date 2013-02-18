@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section>
+  <header>
+    <h1>{{ article.title }}{% if article.subtitle %} <small>{{ article.subtitle }}</small>{% endif %}</h1>
+  </header>
+  <footer>
+    <abbr title="{{ article.date.isoformat() }}">
+      {{ article.locale_date }}
+    </abbr>
+    {% if article.author %}
+    <address>
+      By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+    </address>
+    {% endif %}
+  </footer>
+  <div>
+    {{ article.content }}
+  </div>
+</section>
+{% endblock content %}
