@@ -14,3 +14,9 @@ body {
         padding-right: 5px;
     }
 }
+
+/* Adjust for 32px square logo image. */
+.navbar .brand {
+    padding-top: 4px;
+    padding-bottom: 0;
+}
