@@ -1,7 +1,11 @@
-body {
-    padding-top: 60px;
-    padding-bottom: 40px;
+@media (min-width: 980px) {
+    /* Do not pad body when navbar is collapsed. */
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
 }
+
 .sidebar-nav {
     padding: 9px 0;
 }
