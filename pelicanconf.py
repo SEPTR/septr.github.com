@@ -1,23 +1,24 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- #
 
-AUTHOR = u"webmaster@septrmtb.org"
-SITENAME = u"SEPTR"
-SITEURL = "http://www.septrmtb.org"
-FEED_DOMAIN = SITEURL
+# Meta.
+AUTHOR       = "webmaster@septrmtb.org"
+SITENAME     = "SEPTR"
+SITEURL      = "http://www.septrmtb.org"
+FEED_DOMAIN  = SITEURL
+TIMEZONE     = "America/New_York"
+THEME        = "themes/v0"
+STATIC_PATHS = ["documents"]
 
-TIMEZONE = "America/New_York"
-
-DEFAULT_LANG = u"en"
-
-# Blogroll
-LINKS =  (("Pelican", "http://docs.notmyidea.org/alexis/pelican/"),
-          ("Python.org", "http://python.org"),
-          ("Jinja2", "http://jinja.pocoo.org"),
-          ("You can modify those links in your config file", "#"),)
-
-# Social widget
-SOCIAL = (("You can add links in your config file", "#"),
-          ("Another social link", "#"),)
-
-DEFAULT_PAGINATION = 10
+# URL Settings.
+ARCHIVES_SAVE_AS = "archives/index.html"
+ARCHIVES_URL     = "archives/"
+ARTICLE_SAVE_AS  = "{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
+ARTICLE_URL      = "{date:%Y}/{date:%m}/{date:%d}/{slug}/"
+AUTHOR_SAVE_AS   = "author/{slug}/index.html"
+AUTHOR_URL       = "author/{slug}/"
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
+CATEGORY_URL     = "category/{slug}/"
+PAGE_SAVE_AS     = "{slug}/index.html"
+PAGE_URL         = "{slug}/"
+TAG_SAVE_AS      = "tag/{slug}/index.html"
+TAG_URL          = "tag/{slug}/"
