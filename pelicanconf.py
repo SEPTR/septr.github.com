@@ -9,6 +9,9 @@ TIMEZONE     = "America/New_York"
 THEME        = "themes/v0"
 STATIC_PATHS = ["documents", "images"]
 
+# Do not autoreload when Emacs drops a lock file.
+IGNORE_FILES = ["^.#"]
+
 # URL Settings.
 ARCHIVES_SAVE_AS = "archives/index.html"
 ARCHIVES_URL     = "archives/"
