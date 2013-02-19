@@ -7,7 +7,7 @@ SITEURL      = "http://www.septrmtb.org"
 FEED_DOMAIN  = SITEURL
 TIMEZONE     = "America/New_York"
 THEME        = "themes/v0"
-STATIC_PATHS = ["documents"]
+STATIC_PATHS = ["documents", "images"]
 
 # URL Settings.
 ARCHIVES_SAVE_AS = "archives/index.html"
