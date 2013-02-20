@@ -6,7 +6,7 @@ Slug: membership
 Author: SEPTR Board of Directors
 Summary: How to become a member of Southeastern Pennsylvania Trail Riders
 
-SEPTR's membership roots began with distinction as the
+<abbr title="Southeastern Pennsylvania Trail Riders">SEPTR</abbr> membership roots began with distinction as the
 first <a href="http://www.imba.com/chapter-program">IMBA Chapter Program</a>
 organization in 2006.
 
