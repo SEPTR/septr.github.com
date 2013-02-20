@@ -9,6 +9,10 @@ TIMEZONE     = "America/New_York"
 THEME        = "themes/v0"
 STATIC_PATHS = ["documents", "images"]
 
+# Do not generate any feeds.
+FEED_ALL_ATOM      = None
+CATEGORY_FEED_ATOM = None
+
 # Do not autoreload when Emacs drops a lock file.
 IGNORE_FILES = ["^.#"]
 
