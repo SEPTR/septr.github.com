@@ -5,5 +5,6 @@ Category: info
 Slug: introducing-southeastern-pennsylvania-trail-riders
 Author: SEPTR Board of Directors
 Summary: An introduction to Southeastern Pennsylvania Trail Riders
+Status: draft
 
 Lorem ipsum...
