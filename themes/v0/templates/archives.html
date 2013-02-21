@@ -4,14 +4,19 @@
 {% set IS_ARCHIVES = true %}
 
 {% block content %}
-<div class="page-header">
-  <h1>Archives <small>What We've Been Up To</small></h1>
-</div>
+  <div class="page-header">
+    <h1>Archives <small>What We've Been Up To</small></h1>
+  </div>
 
-<dl>
-  {% for article in dates %}
-  <dt>{{ article.locale_date }}</dt>
-  <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-  {% endfor %}
-</dl>
+  {% if dates|length %}
+    <dl>
+      {% for article in dates %}
+        <dt>{{ article.locale_date }}</dt>
+        <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+      {% endfor %}
+    </dl>
+  {% else %}
+    No public announcements yet- stay tuned!
+  {% endif %}
+
 {% endblock content %}
