@@ -30,8 +30,7 @@
     }
 }
 
-/* Adjust for 32px square logo image. */
 .navbar .brand {
-    padding-top: 4px;
-    padding-bottom: 0;
+    padding-top: 10px;
+    font-weight: 800;
 }
