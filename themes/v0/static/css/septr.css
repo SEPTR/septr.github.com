@@ -30,6 +30,20 @@
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #005d63;
+}
+
+.nav-list>.active>a,
+.nav-list>.active>a:hover,
+.nav-list>.active>a:focus {
+    background-color: #65646a;
+}
+
+.nav-list > li > a {
+    color: #65646a;
+}
+
 .navbar .brand {
     padding-top: 10px;
     font-weight: 800;
