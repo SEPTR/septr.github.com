@@ -1,5 +1,5 @@
 Title: Membership
-Subtitle: An IMBA Chapter Organization
+Subtitle: An <abbr title="Interactive Mountain Bicycling Association">IMBA</abbr> Chapter Organization
 Tags: info
 Category: membership
 Slug: membership
