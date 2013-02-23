@@ -16,4 +16,14 @@ organization in 2006.
     voice.</p><small>IMBA in <cite title="What is the IMBA Chapter Program?">What is the IMBA Chapter Program?</cite></small>
 </blockquote>
 </p>
+
 <p><a href="https://www.imba.com/civicrm/contribute/transact?reset=1&id=146" class="btn btn-primary btn-large">Join SEPTR</a></p>
+
+<p>
+  <span class="label label-info">Info</span>
+  <abbr title="Southeastern Pennsylvania Trail Riders">SEPTR</abbr> has grown
+  out of what was known as
+  <abbr title="Philadelphia Mountain Biking Association">PMBA</abbr>.
+  <abbr title="International Mountain Bicycling Association">IMBA</abbr> has yet to
+  update their membership page to reflect this change.
+</p>
