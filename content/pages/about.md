@@ -12,10 +12,17 @@ Summary: About Southeastern Pennsylvania Trail Riders
   Association">IMBA</abbr> <a href="http://www.imba.com/chapter-program">chapter</a>
   organization in Southeastern Pennsylvania.
 </p>
+
 <p>
   It is a 501 (c) 3 non-profit education association whose mission is to
   create, enhance and preserve great mountain biking experiences in
   Philadelphia, Montgomery, Bucks, Chester and Delaware counties.
+</p>
+
+<p>
+  <a href="mailto:board@septrmtb.org" class="btn">
+    <i class="icon-envelope"></i> Email the Board
+  </a>
 </p>
 
 <section id="rules-of-the-trail">
