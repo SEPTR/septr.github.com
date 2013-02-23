@@ -16,6 +16,9 @@ CATEGORY_FEED_ATOM = None
 # Do not autoreload when Emacs drops a lock file.
 IGNORE_FILES = ["^.#"]
 
+# CNAME file for github User Pages custom domain.
+FILES_TO_COPY = (("CNAME", "CNAME"),)
+
 # URL Settings.
 ARCHIVES_SAVE_AS = "archives/index.html"
 ARCHIVES_URL     = "archives/"
