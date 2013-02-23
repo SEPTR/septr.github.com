@@ -6,6 +6,18 @@ Slug: about
 Author: SEPTR Board of Directors
 Summary: About Southeastern Pennsylvania Trail Riders
 
+<p class="lead">
+  <abbr title="Southeastern Pennsylvania Trail Riders">SEPTR</abbr> is
+  the <abbr title="International Mountain Bicycling
+  Association">IMBA</abbr> <a href="http://www.imba.com/chapter-program">chapter</a>
+  organization in Southeastern Pennsylvania.
+</p>
+<p>
+  It is a 501 (c) 3 non-profit education association whose mission is to
+  create, enhance and preserve great mountain biking experiences in
+  Philadelphia, Montgomery, Bucks, Chester and Delaware counties.
+</p>
+
 <section id="rules-of-the-trail">
   <h2>Rules of the Trail
     <small>
@@ -35,40 +47,44 @@ Summary: About Southeastern Pennsylvania Trail Riders
     <dt>Control Your Bicycle</dt>
     <dd>
       <em>Inattention for even a moment could put yourself and others at
-      risk.</em> Obey all bicycle speed regulations and recommendations, and
-      ride within your limits.
+        risk.</em> Obey all bicycle speed regulations and recommendations, and
+        ride within your limits.
     </dd>
 
     <dt>Yield Appropriately</dt>
     <dd>
       <em>Do your utmost to let your fellow trail users know you're
-      coming</em> &mdash; a friendly greeting or bell ring are good
-      methods. Try to anticipate other trail users as you ride around
-      corners. Bicyclists should yield to other non-motorized trail users,
-      unless the trail is clearly signed for bike-only travel. Bicyclists
-      traveling downhill should yield to ones headed uphill, unless the trail
-      is clearly signed for one-way or downhill-only traffic. In general,
-      strive to make each pass a safe and courteous one.
+        coming</em> &mdash; a friendly greeting or bell ring are good
+        methods. Try to anticipate other trail users as you ride around
+        corners. Bicyclists should yield to other non-motorized trail users,
+        unless the trail is clearly signed for bike-only travel. Bicyclists
+        traveling downhill should yield to ones headed uphill, unless the trail
+        is clearly signed for one-way or downhill-only traffic. In general,
+        strive to make each pass a safe and courteous one.
     </dd>
 
     <dt>Never Scare Animals</dt>
     <dd>
       <em>Animals are easily startled by an unannounced approach, a sudden movement
-      or a loud noise.</em> Give animals enough room and time to adjust to you. When
-      passing horses, use special care and follow directions from the horseback
-      riders (ask if uncertain). Running cattle and disturbing wildlife are
-      serious offenses.
+        or a loud noise.</em> Give animals enough room and time to adjust to you. When
+        passing horses, use special care and follow directions from the horseback
+        riders (ask if uncertain). Running cattle and disturbing wildlife are
+        serious offenses.
     </dd>
 
     <dt>Plan Ahead</dt>
     <dd>
       <em>Know your equipment, your ability and the area in which you are riding and
-      prepare accordingly.</em> Strive to be self-sufficient: keep your equipment in
-      good repair and carry necessary supplies for changes in weather or other
-      conditions. Always wear a helmet and appropriate safety gear.
+        prepare accordingly.</em> Strive to be self-sufficient: keep your equipment in
+        good repair and carry necessary supplies for changes in weather or other
+        conditions. Always wear a helmet and appropriate safety gear.
     </dd>
   </dl>
 
-  <a href="|filename|/documents/rules-of-the-trail.pdf" class="btn"><i class="icon-download"></i> Download</a>
+  <p class="text-center">
+    <a href="|filename|/documents/rules-of-the-trail.pdf" class="btn"><i class="icon-download"></i>
+      Download Rules of the Trail
+    </a>
+  </p>
 
 </section>
