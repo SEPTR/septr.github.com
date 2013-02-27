@@ -39,6 +39,9 @@ serve:
 devserver:
 	$(BASEDIR)/develop_server.sh restart
 
+stop:
+	$(BASEDIR)/develop_server.sh stop
+
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
