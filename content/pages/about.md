@@ -10,7 +10,7 @@ Summary: About Southeastern Pennsylvania Trail Riders
   <abbr title="Southeastern Pennsylvania Trail Riders">SEPTR</abbr> is
   the <abbr title="International Mountain Bicycling
   Association">IMBA</abbr> <a href="http://www.imba.com/chapter-program">chapter</a>
-  organization in Southeastern Pennsylvania.
+  organization in southeastern Pennsylvania.
 </p>
 
 <p>
