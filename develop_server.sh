@@ -3,7 +3,7 @@
 # This section should match your Makefile
 ##
 PELICAN=pelican
-PELICANOPTS=
+PELICANOPTS="--quiet"
 
 BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
@@ -62,7 +62,7 @@ function start_up(){
   $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS &
   echo $! > $PELICAN_PID
   cd $OUTPUTDIR
-  python -m SimpleHTTPServer &
+  python -m SimpleHTTPServer &> /dev/null &
   echo $! > $SRV_PID
   cd $BASEDIR
   sleep 1 && echo 'Pelican and SimpleHTTPServer processes now running in background.'
