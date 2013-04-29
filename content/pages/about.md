@@ -7,16 +7,23 @@ Author: SEPTR Board of Directors
 Summary: About Southeastern Pennsylvania Trail Riders
 
 <p class="lead">
-  <abbr title="Southeastern Pennsylvania Trail Riders">SEPTR</abbr> is
-  the <abbr title="International Mountain Bicycling
-  Association">IMBA</abbr> <a href="http://www.imba.com/chapter-program">chapter</a>
-  organization in southeastern Pennsylvania.
+    <abbr title="Southeastern Pennsylvania Trail Riders">SEPTR</abbr> is the
+    regional <a href="http://www.imba.com/chapter-program">chapter</a> of
+    <abbr title="International Mountain Bicycling Association">IMBA</abbr>
+    which represents <a href="/maps/#boundaries">five counties in
+    southeastern Pennsylvania</a>.
 </p>
 
 <p>
-  It is a 501 (c) 3 non-profit education association whose mission is to
-  create, enhance and preserve great mountain biking experiences in
-  Philadelphia, Montgomery, Bucks, Chester and Delaware counties.
+    Our mission is to advocate for mountain bikers while educating riders and
+    land managers about protecting, promoting, and creating trails within our
+    region. <abbr title="Southeastern Pennsylvania Trail Riders">SEPTR</abbr>
+    actively promotes responsible mountain biking, offers regularly scheduled
+    rides, supports volunteer trail work, assists land managers with trail
+    management issues, and strives to maintain and improve relationships
+    between trail user groups according to
+    <abbr title="International Mountain Bicycling Association">IMBA</abbr>
+    guidelines.
 </p>
 
 <p>
@@ -88,7 +95,7 @@ Summary: About Southeastern Pennsylvania Trail Riders
     </dd>
   </dl>
 
-  <p class="text-center">
+  <p>
     <a href="|filename|/documents/rules-of-the-trail.pdf" class="btn"><i class="icon-download"></i>
       Download Rules of the Trail
     </a>
