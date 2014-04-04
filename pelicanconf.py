@@ -17,7 +17,7 @@ CATEGORY_FEED_ATOM = None
 IGNORE_FILES = ["^.#"]
 
 # CNAME file for github User Pages custom domain.
-FILES_TO_COPY = (("CNAME", "CNAME"),)
+STATIC_PATHS = ["CNAME"]
 
 # URL Settings.
 ARCHIVES_SAVE_AS = "archives/index.html"
